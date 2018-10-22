@@ -1,0 +1,16 @@
+server:
+  name: db-demo
+  version: 1.0.1
+dbconfigs:
+   - name: 204
+     config:
+      mode: true
+      driver: mysql
+      host: 192.168.1.204
+      port: 3306
+      username: web
+      password: 123456
+      databasename: db_dingzuo
+      lifetime: 10
+      max-open-num: 5
+      max-idle-num: 5
